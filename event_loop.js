@@ -1,13 +1,14 @@
 import fs from 'fs'
-setTimeout(()=>{
-    console.log("SetTime Out");
-})
+import process  from 'process'
 fs.readFile("intro.txt","utf8",(err,data)=>{
-    console.log("File data read completed");
-})
-setInterval(()=>{
-    console.log("set Interval");
-},1000)
+    setTimeout(()=>{
+    console.log("SetTime Out inside fs");
+},0)
 setImmediate(()=>{
-    console.log("set Immediate");
+    console.log("set Immediate inside fs");
+})
+console.log("Files data read completed");
+})
+process.nextTick(()=>{
+    console.log("nextTick");
 })
