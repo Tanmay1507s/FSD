@@ -2,7 +2,7 @@ import http from 'http'
 import fs from 'fs'
 
 const data = fs.readFileSync("./page_not_found.html","utf-8")
-const config = 
+
 const server = http.createServer((req,res)=>{
     //res.end("Welcome from server")
     if(req.url === "/"){
