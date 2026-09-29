@@ -299,5 +299,30 @@
     ],
     "available": true,
     "price": 13.5
+  },
+  {
+    "name": "Add your name in the body"
+  },
+  {
+    "id": "25",
+    "title": "The Book",
+    "author": "Tanmay",
+    "published_year": 2026,
+    "genres": [
+      "Fiction"
+    ],
+    "available": true,
+    "price": 15.99
+  },
+  {
+    "id": "25",
+    "title": "The Book",
+    "author": "Tanmay",
+    "published_year": 2026,
+    "genres": [
+      "Fiction"
+    ],
+    "available": true,
+    "price": 15.99
   }
 ]
